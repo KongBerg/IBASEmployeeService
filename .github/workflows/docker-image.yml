@@ -2,7 +2,7 @@ name: IBas Docker Image
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     
 env:
   IMAGENAME: ${{ secrets.REGISTRY_LOGIN_SERVER}}/ibasemployeeservice:latest
